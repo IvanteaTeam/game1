@@ -1,0 +1,5 @@
+[requires]
+alya/0.0.0.2
+[generators]
+cmake
+cmake_find_package
