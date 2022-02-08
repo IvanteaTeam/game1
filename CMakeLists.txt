@@ -21,6 +21,4 @@ target_compile_features(game1 PUBLIC cxx_std_20)
 
 find_package(alya QUIET REQUIRED)
 
-message(WARNING ${alya_INCLUDE_DIR})
-
 target_link_libraries(game1 PRIVATE alya::alya)
